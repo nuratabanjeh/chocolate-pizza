@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 html{
-    padding: 5%;
-
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
 
 body{
@@ -18,7 +19,7 @@ h1{
     display: inline;
     margin: 0%;
     font-family:  'Yellowtail', cursive;
-    color: #333;
+    color: rgb(43, 41, 41);
     margin-top: 5px;
 }
 hr{
@@ -27,9 +28,21 @@ hr{
 div p{
     font-size:8px;
     font-weight: bold;
+    margin: 0px;
+    color: rgb(99, 99, 99);
+    font-family: 'Antonio', sans-serif;
        
 }
-
+.first{
+    border: none; 
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 10px;
+    background-size: 40px 40px;
+    background-color: grey;
+}
 header div{
     display: inline-block;
     padding-top: 10px;
@@ -42,7 +55,12 @@ header nav{
     padding-right: 0%;
     
 }
-
+header nav a img{
+    margin-right: 0%;
+}
+#pint{
+    margin-right: 10px;
+}
 #print{
     float: right;
     display: inline-block;
@@ -55,6 +73,86 @@ header nav{
 a img{
     margin-right: 5px;
 }
-main div {
+#pizza{
+    font-
+}
+main div p{
+    color: gray;
+    font-size: 0.7em;
+
+}
+.pargr{
+    text-indent: 30px;
+    color: grey;
+}
+#list{
+    margin-top: 20px;
+    position: absolute;
+    z-index: -1;
+
+}
+#group1{
+    display: inline-block;
+    margin-right: 20%;
+    margin-left: 6%;
+    margin-top: 50px;
+}
+#group2{
+    display: inline-block;
+    margin-top: 50px;
+}
+input{
+    margin-bottom: 22px;
+}
+
+#last{
+    margin-top: 10%;
+}
+main section{
+    display: inline-block;
+    margin-left: 3%;
+}
+footer{
+    text-align: center;
+    color: rgb(150, 148, 148);
+}
+#lasthr { 
+    background: url('img/small-logo.png') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 18px;
+    border: 0;
+    position: relative;
+}
+#lasthr:before,
+#lasthr:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #d7d7d7;
+    height: 2px;
+    top: 8px;
+}
+#lasthr:before {
+    left: 0;
+    right: 50%;
+    margin-right: 10px;
+}
+#lasthr:after {
+    right: 0;
+    left: 50%;
+    margin-left: 10px;
+}
+/* from https://stackoverflow.com/questions/35610251/style-hr-with-image*/
+
+button{
     
+    top: -330px;
+    left: 900px;
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgba(192, 82, 82, 0.856);
+    color: whitesmoke;
+    border: unset;
+    margin-left: 15px;
 }
