@@ -5,13 +5,23 @@
     <title>
         chocolate Pizza
     </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="img/logo.png">
-        <h1>Delicious</h1>
-        <p>THE BEST FOOD BLOG ON THE WEB.</p>
+        <div>
+            <img src="img/logo.png">
+            <div>
+                <h1>Delicious</h1>
+                <p>THE BEST FOOD BLOG ON THE WEB.
+                </p>
+            </div>
+            
+        </div>
+        
 
         <nav>
 
@@ -20,40 +30,42 @@
             <a href=""><img src="img/gp-icon.png"></a>
             <a href=""><img src="img/insta-icon.png"></a>
             <a href=""><img src="img/flic-icon.png"></a>
-            <a href=""><img src="img/pint-icon.png"></a>
+            <a href=""><img id="pint" src="img/pint-icon.png"></a>
             <a href=""><img src="img/rss-icon.png"></a>
             <a href=""><img src="img/mail-icon.png"></a>
 
 
         </nav>
-        <hr>
+        <hr class="first">
     </header>
     <main>
         <div>
-            <h2>Chocolate Pizza</h2>
+            <h2 id="pizza">Chocolate Pizza</h2>
             <p>POSTED ON 12 DEC 2013/ DESSERTS</p>
-
-            <a href="">
-                <img src="img/print-icon.png">PRINT
-            </a>
         </div>
+
+        <a href="" id="print">
+                <img src="img/print-icon.png">PRINT
+        </a>
+        
         <img src="img/choco-pizza.png">
 
-        <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve
+        <p class="pargr">For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve
             all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring
             frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool
             completely.</p>
-        <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely
+        <p class="pargr">Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely
             dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait
             until the fig mixture is cooled.</p>
-        <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer
+        <p class="pargr">Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer
             instructions, i e. let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the
             nua Continue to process for + 10 minutes Pour senu frozen mixture into a pyrex dish or glass tupperware
             Freeze for at least two hours before serving.
         </p>
+        <img src="img/list-bg.png" alt="list" id="list">
         <form id="group1">
             <input type="checkbox" id="ch1">
-            <label for="ch1"> 1 1/2 cups milk</label><br>
+            <label for="ch1"> 1 1/2 cups m  ilk</label><br>
 
             <input type="checkbox" id="ch2">
             <label for="ch2">1/2 cp mascarpone</label><br>
@@ -89,16 +101,23 @@
             <input type="checkbox" id="ch12">
             <label for="ch12"> 1 cup honey roasted pecans, roughly chopped </label><br>
         </form>
-        <hr>
+        <hr class="first" id="last">
         <img src="img/van-pic.png">
-        <h4>Vanessa Stevenson</h4>
-        <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+        <section>
+            <h4>Vanessa Stevenson</h4>
+            <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
+
+            </p>
+        </section>
         <button type="button">SHARE RECIPE</button>
 
     </main>
     <footer>
-        <hr>
-        <img src="img/small-logo.png">
+        <div>
+            <hr id="lasthr">
+            
+        </div>
+        
         <p>Delicious &copy; 2013 . All Rights Reserved.</p>
         <p>Proudly published with Ghost.</p>
     </footer>
