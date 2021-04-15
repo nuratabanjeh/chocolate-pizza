@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    padding: 5%;
+
+}
+
+body{
+    width: 901px;
+    
+}
+
+header div img{
+    display: inline-block;
+}
+h1{
+    display: inline;
+    margin: 0%;
+    font-family:  'Yellowtail', cursive;
+    color: #333;
+    margin-top: 5px;
+}
+hr{
+    width: 100%;
+}
+div p{
+    font-size:8px;
+    font-weight: bold;
+       
+}
+
+header div{
+    display: inline-block;
+    padding-top: 10px;
+    
+}
+header nav{
+    display: inline-block;
+    float: right;
+    padding: 5%;
+    padding-right: 0%;
+    
+}
+
+#print{
+    float: right;
+    display: inline-block;
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 3%;
+    font-weight:lighter ;
+}
+a img{
+    margin-right: 5px;
+}
+main div {
+    
+}
